@@ -16,7 +16,7 @@ class PlacarActitity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_placar)
 
-        tvTimeCasa.text = intent.getStringExtra("TIME_CASA")
+        tvTimeCasa.text = intent.getStringExtra("TIME_CASA1")
         tvTimeVisitante.text = intent.getStringExtra("TIME_VISITANTE")
 
         tvPlacarCasa.text = golCasa.toString()
