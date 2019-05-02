@@ -14,7 +14,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:gravity="center_horizontal"
-        android:text="Clubes"
+        android:text="@string/title_club"
         android:textColor="#ff0000"
         android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,13 +22,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+
         android:id="@+id/textView2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
-        android:text="Time da Casa"
+        android:text="@string/label_home_club"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -39,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:hint="Digite o nome do time da casa"
+        android:hint="@string/hint_home_club"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="@+id/textView2"
@@ -50,7 +51,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Time Visitante"
+        android:text="@string/label_away_club"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView2"
@@ -62,7 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:hint="Digite o nome do time visitante"
+        android:hint="@string/hint_away_club"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="@+id/textView2"
@@ -73,7 +74,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Começar a Partida"
+        android:text="@string/label_start_game"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/inputClubVisitante" />
@@ -86,7 +87,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:gravity="center_horizontal"
-        android:text="Desenvolvido por Francisco Freire"
+        android:text="@string/label_copyright"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

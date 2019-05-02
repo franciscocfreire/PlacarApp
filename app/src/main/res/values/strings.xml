@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">PlacarApp</string>
+    <string name="title_club">CLUBS</string>
+    <string name="label_home_club">Home Team</string>
+    <string name="hint_home_club">Type Home Team's name</string>
+    <string name="label_away_club">Away Team</string>
+    <string name="hint_away_club">Type Away Team's name</string>
+    <string name="label_start_game">Start Game</string>
+    <string name="label_copyright">Develop by Francisco Freire</string>
 </resources>
