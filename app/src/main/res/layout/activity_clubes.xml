@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-
+        style="label_form"
         android:id="@+id/textView2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -47,6 +47,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
+        style="label_form"
         android:id="@+id/textView3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

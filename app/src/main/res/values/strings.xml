@@ -1,4 +1,5 @@
 <resources>
+    <string name="app_name">Placar App</string>
     <string name="title_club">CLUBS</string>
     <string name="label_home_club">Home Team</string>
     <string name="hint_home_club">Type Home Team's name</string>

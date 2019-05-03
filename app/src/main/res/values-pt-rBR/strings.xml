@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-    <string name="title_club">Clubes</string>
     <string name="app_name" translatable="false">Placar App</string>
+    <string name="title_club">Clubes</string>
     <string name="label_home_club">Time da Casa</string>
     <string name="hint_home_club">Digite o nome do time da casa</string>
     <string name="label_away_club">Time Visitante</string>
